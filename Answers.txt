@@ -1,0 +1,37 @@
+05.
+
+Server is listening on local socket /tmp/local_socket...
+Connection accepted from client
+Received data from client: Hello, server!
+
+06.
+
+Server is listening on local socket /tmp/local_socket...
+Connection accepted from client
+Received data from client: Hello, server!
+Connection accepted from client
+Received data from client: Hello, server!
+Connection accepted from client
+Received data from client: Hello, server!
+Connection accepted from client
+Received data from client: Hello, server!
+
+07.
+
+./client
+
+Connected to the server
+Enter a message (type 'quit' to exit): Hi I'm lbro
+Enter a message (type 'quit' to exit): How are you?
+Enter a message (type 'quit' to exit): quit
+Sent quit message. Exiting...
+
+./server
+
+Server is listening on local socket /tmp/local_socket...
+Connection accepted from client
+Received data from client: Hi I'm lbro
+Received data from client: How are you?
+Received data from client: quit
+Received quit message. Exiting...
+
