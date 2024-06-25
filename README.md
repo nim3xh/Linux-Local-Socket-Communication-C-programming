@@ -20,16 +20,14 @@ gcc -o server server.c
 ```
 
 1. **Start the Server:**
-
-    ``sh
-    ./server
-    ```
+```sh
+   ./server
+```
 
 2.**Start the Client:**
-
-    ``sh
+```sh
     ./client
-    ```
+```
 3.**Communication:**
  - Type a message in the client terminal.
  - The server displays the message.
